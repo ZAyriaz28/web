@@ -1,0 +1,70 @@
+/* Estilos generales para escritorio */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+}
+
+/* Otros estilos para el sitio web */
+
+/* Estilos responsivos para móviles */
+@media (max-width: 768px) {
+    /* Ajustar el header */
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Navegación en una sola columna */
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    /* Ajustar las secciones de contenido */
+    .content {
+        padding: 20px;
+        text-align: left;
+    }
+
+    /* Hacer que las imágenes sean más pequeñas y se ajusten al ancho */
+    .media img {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    /* Ajustar los formularios para que ocupen el 100% del ancho */
+    form {
+        width: 100%;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* Botón de enviar más grande y centrado */
+    button {
+        width: 100%;
+        padding: 15px;
+        background-color: #10b981;
+        color: #fff;
+        font-size: 1.2rem;
+        border: none;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #059669;
+    }
+
+    /* Espaciado adicional para mejorar la legibilidad */
+    h2, h3, p {
+        font-size: 1.2rem;
+    }
+}
